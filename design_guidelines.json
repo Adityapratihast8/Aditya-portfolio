@@ -1,0 +1,89 @@
+{
+  "theme": "dark",
+  "archetype": "4 (Swiss & High-Contrast) + Premium Linear/Stripe Aesthetic",
+  "colors": {
+    "background_primary": "#0A0F1C",
+    "background_secondary": "#111827",
+    "background_tertiary": "#1E293B",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#94A3B8",
+    "accent_primary": "#3B82F6",
+    "accent_secondary": "#0EA5E9",
+    "accent_warm": "#F59E0B",
+    "border_subtle": "rgba(255, 255, 255, 0.1)",
+    "glass_background": "rgba(15, 23, 42, 0.6)"
+  },
+  "typography": {
+    "heading_font": "Space Grotesk, sans-serif",
+    "body_font": "Manrope, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "scale": {
+      "h1": "text-5xl sm:text-6xl tracking-tighter font-bold",
+      "h2": "text-3xl sm:text-4xl tracking-tight font-bold",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base leading-relaxed",
+      "small": "text-sm tracking-wide"
+    }
+  },
+  "spacing_and_layout": {
+    "generous_padding": "py-24 sm:py-32",
+    "container": "max-w-7xl mx-auto px-6 lg:px-8",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+    "glassmorphism": "backdrop-blur-xl bg-slate-900/60 border border-white/10 shadow-2xl"
+  },
+  "animations": {
+    "hover_lift": "transition-transform duration-300 hover:-translate-y-2",
+    "tilt_card": "hover:rotate-1 hover:scale-[1.02] transition-all duration-300",
+    "reveal": "initial opacity-0 translate-y-8, animate to opacity-100 translate-y-0"
+  },
+  "components": {
+    "buttons": "rounded-full px-8 py-3 font-semibold transition-all duration-300 flex items-center gap-2",
+    "primary_button": "bg-blue-600 hover:bg-blue-500 text-white shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]",
+    "secondary_button": "bg-white/5 hover:bg-white/10 text-white border border-white/10 backdrop-blur-md",
+    "skill_bar": "h-2 rounded-full bg-slate-800 overflow-hidden",
+    "skill_fill": "h-full bg-gradient-to-r from-blue-600 to-sky-400 rounded-full",
+    "card": "rounded-2xl p-6 bg-slate-900/50 border border-white/5 backdrop-blur-sm"
+  },
+  "media_urls": [
+    {
+      "category": "hero_background",
+      "url": "https://images.unsplash.com/photo-1718844054440-22acf5d5c8f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwzfHxkYXJrJTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4Mjg0NjMyNXww&ixlib=rb-4.1.0&q=85",
+      "description": "Dark abstract 3D sphere/texture for hero section background noise/grain."
+    },
+    {
+      "category": "portrait_placeholder",
+      "url": "https://images.unsplash.com/photo-1584554376766-ac0f2c65e949?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBpbmRpYW4lMjBtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3ODI4NDYzMjV8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Professional Indian man portrait for Aditya's placeholder."
+    },
+    {
+      "category": "project_ecommerce",
+      "url": "https://images.unsplash.com/photo-1757301714935-c8127a21abc6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwzfHxlY29tbWVyY2UlMjBhcHAlMjBkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3ODI4NDYzMzJ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "E-Commerce Backend Spring Boot project mockup."
+    },
+    {
+      "category": "project_banking",
+      "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBhcHAlMjBkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3ODI4NDYzMzJ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Banking Management System JDBC project mockup."
+    },
+    {
+      "category": "project_ai_req",
+      "url": "https://images.unsplash.com/photo-1720962158813-29b66b8e23e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBkYXNoYm9hcmQlMjB1aSUyMGRlc2lnbnxlbnwwfHx8fDE3ODI4NDYzMjV8MA&ixlib=rb-4.1.0&q=85",
+      "description": "AI Requirement Management System mockup."
+    },
+    {
+      "category": "agile_meeting",
+      "url": "https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMHN0cmF0ZWd5JTIwYWdpbGUlMjBtZWV0aW5nfGVufDB8fHx8MTc4Mjg0NjMzMnww&ixlib=rb-4.1.0&q=85",
+      "description": "Business Strategy Agile meeting photo for BA / Case studies sections."
+    },
+    {
+      "category": "abstract_tech",
+      "url": "https://images.pexels.com/photos/10653941/pexels-photo-10653941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Dynamic abstract blue light pattern for case studies / section breaks."
+    }
+  ],
+  "technical_requirements": {
+    "testing": "All interactive elements MUST include data-testid attributes (e.g., data-testid='hero-cta-button').",
+    "icons": "lucide-react for UI interactions, react-icons for brand/tech logos (VS Code, Java, Spring, etc.).",
+    "charts_visuals": "Framer Motion for structural layout animations, standard CSS for hover effects."
+  }
+}
